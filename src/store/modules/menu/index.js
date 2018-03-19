@@ -7,6 +7,7 @@ import maps from './maps'
 import tables from './tables'
 import auth from './auth'
 import extra from './extra'
+import resource from './resource'
 
 const state = {
   items: [
@@ -17,7 +18,8 @@ const state = {
     ui,
     extra,
     auth,
-    maps
+    maps,
+    resource
   ]
 }
 
