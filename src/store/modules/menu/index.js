@@ -8,6 +8,7 @@ import tables from './tables'
 import auth from './auth'
 import extra from './extra'
 import resource from './resource'
+import floodfill from './floodfill'
 
 const state = {
   items: [
@@ -19,7 +20,8 @@ const state = {
     extra,
     auth,
     maps,
-    resource
+    resource,
+    floodfill
   ]
 }
 
